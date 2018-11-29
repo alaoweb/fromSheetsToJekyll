@@ -338,8 +338,8 @@
 
                 });
                 title = title.replace(':','&#58;');
-                returnString += '---\n'+template+'\n'+'title: '+title+'\n---\r\n'+'<p>'+content+'</p>';
-                zip.folder('fromSheetsToJekyll').file(fileDate+'-'+fileTitle+'.html',returnString);
+                returnString += '---\n'+template+'\n'+'title: '+title+'\n---\r\n'+content;
+                zip.folder('fromSheetsToJekyll').file(fileDate+'-'+fileTitle+'.md',returnString);
             });
 
             var a = document.createElement('a');
