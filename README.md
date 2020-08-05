@@ -1,1 +1,1 @@
-Everything is pretty much in the [live demo](http://queryluke.github.io/fromSheetsToJekyll/).
+Everything is pretty much in the [live demo](http://dzoladz.github.io/fromSheetsToJekyll/).
